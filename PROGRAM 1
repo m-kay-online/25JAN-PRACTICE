@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    float f1;
+    
+    cout<<"Enter floating point number: ";cin>>f1;
+    
+    
+    cout<<"After type cast: "<<(int)f1;
+    
+}
