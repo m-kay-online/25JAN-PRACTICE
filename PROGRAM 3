@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    double d;
+    int i;
+    
+    cout<<"Enter a double input: ";cin>>d;
+    
+    d = d + 0.5;
+    i = d;
+    
+    cout<<"After Conversion: "<<i;
+    
+}
