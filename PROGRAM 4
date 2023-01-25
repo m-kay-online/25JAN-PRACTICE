@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int i;
+    float f;
+    cout<<"Enter an integer:";cin>>i;
+    cout<<"\nEntered Integer: "<<i;
+    
+    f = static_cast<float>(i);
+    
+    cout<<"\n After Conversion: "<<f;
+}
