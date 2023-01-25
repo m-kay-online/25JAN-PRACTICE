@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    string str;
+    
+    char* arr[100];
+    
+    cout<<"Enter a String: ";getline(cin,str);
+    cout<<"\nEntered String: "<<str;
+    
+    
+    
+    arr = reinterpret_cast<char>(str);
+    cout<<"\n After Conversion: "<<arr;
+}
